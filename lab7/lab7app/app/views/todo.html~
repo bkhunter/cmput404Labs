@@ -1,0 +1,4 @@
+<h1>This is the todo view.</h1>
+<div ng-repeat="(todo_key, todo_value) in todo.todos">
+     {{ todo_key }} : {{ todo_value }}
+</div>
